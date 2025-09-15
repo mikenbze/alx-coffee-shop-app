@@ -2,9 +2,9 @@ import { View, FlatList, Text, Pressable, Image } from "react-native";
 import { Link } from "expo-router";
 
 const coffees = [
-  { id: "1", title: "Espresso", price: "$2.99", image: require("../assets/images/espresso.png") },
-  { id: "2", title: "Latte", price: "$3.99", image: require("../assets/images/latte.png") },
-  { id: "3", title: "Cappuccino", price: "$3.49", image: require("../assets/images/cappuccino.png") },
+  { id: "1", title: "Espresso", price: "Ksh 2,000", image: require("../assets/images/espresso.png") },
+  { id: "2", title: "Caramel Latte", price: "Ksh 3,000", image: require("../assets/images/latte.png") },
+  { id: "3", title: "Cappuccino", price: "Ksh 3,500", image: require("../assets/images/cappuccino.png") },
 ];
 
 export default function Home() {
